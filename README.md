@@ -27,9 +27,9 @@ I wrote this script based on my company's request to rename files by appending t
 
 - Before you run the script, make sure the files you would like to rename and append to properties to them are located in an accessible directory (should be the same as the one you used in the $sourcedir parameter), preferrably not the same as the scripts folder.
 
-- Now you should be good to go. Just run the script **cloneappender.ps1** and that's it, you are done.
+- Now you should be good to go. Just run the script **cloneappender.ps1** and bob's your uncle, you are done.
 
 ## Important
-- There are many file properties to pick from and use in this scrtip. It can be checked by accessing the properties of a file then go through the details to see and use them.
+- There are many file properties to pick from and use in this script. It can be checked by accessing the properties of a file then go through the details to see and use them.
 - This script is preconfigured to look and append the "Content created" property to file names. You can pick any legit file property you like and substitue the "Content created" with it.
 - Each file property has a differnet value style and in order to save the value and use it, you first need to parse it. In this repo, I decided to use "Content created" property and filtered it using **findstr /r "^[0-9]"** which uses regex to look for the date/time line since it starts with numbers then store it in the $a variable.
