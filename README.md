@@ -1,4 +1,4 @@
-# FileNamePropertyAppender
+# File Name Details Appender
 
 This script helps to rename files by appending the "date modified" or "content created" property to a new file name of multiple files simultaneously.
 
